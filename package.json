@@ -1,0 +1,27 @@
+{
+  "name": "angularcourse",
+  "version": "1.0.0",
+  "description": "Curso Angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielzapata1019/AngularCourse.git"
+  },
+  "keywords": [
+    "Angular"
+  ],
+  "author": "Daniel Zapata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielzapata1019/AngularCourse/issues"
+  },
+  "homepage": "https://github.com/danielzapata1019/AngularCourse#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "boostrap": "^2.0.0",
+    "jquery": "^3.2.1"
+  }
+}
