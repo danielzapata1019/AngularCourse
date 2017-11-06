@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html  ng-app="myFirstAppHttp">
+<head>
+    <meta charset="utf-8">
+    <title>Curso Angular HTTP</title>
+</head>
+<body ng-controller="firstControllerHttp">
+title: <input type="text" ng-model="newPosts.title">
+<br>
+body: <textarea type="text" ng-model="newPosts.body"></textarea>
+<br>
+<br>
+<button ng-click="addPost()">Agregar</button>
+<br>
+<br>
+
+<ul>
+    <li ng-repeat="post in posts">
+        <h2>{{post.title}}</h2>
+        <p>{{post.body}}</p>
+    </li>
+</ul>
+</body>
+<script src="../node_modules/angular/angular.min.js"></script>
+<script src="controllerHttp.js"></script>
+
+</html>
