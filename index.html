@@ -1,0 +1,24 @@
+<html  ng-app="myFirstApp">
+<head>
+    <meta charset="utf-8">
+    <title>Curso Angular</title>
+</head>
+<body ng-controller="firstController">
+Comentario: <input type="text" ng-model="nuevoComentario.comentario">
+<br>
+Usuario: <input type="text" ng-model="nuevoComentario.user">
+<br>
+<br>
+<button ng-click="agregarComentario()">Agregar</button>
+<h3>Comentarios</h3>
+<ul>
+    <li ng-repeat="comentario in comentarios">
+        {{comentario.comentario}}- <strong>{{comentario.user}}</strong>
+    </li>
+</ul>
+
+</body>
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="scripts/controller.js"></script>
+
+</html>
