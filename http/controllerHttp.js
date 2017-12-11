@@ -24,7 +24,7 @@ $scope.newPosts={};
             $scope.posts.push($scope.newPosts)
             $scope.addPost={};
         },function (error,status,headers,config){
-
+            console.log(error);
         });
         
     }
